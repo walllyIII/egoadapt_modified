@@ -92,5 +92,5 @@ if __name__ == "__main__":
     # ---------------------------
     # 7. 保存预测结果
     # ---------------------------
-    torch.save({"preds": all_preds, "labels": all_labels}, "predictions.pt")
-    print("Predictions saved to predictions.pt")
+    torch.save({"preds": all_preds, "labels": all_labels}, "asl_predictions.pt")
+    print("Predictions saved to asl_predictions.pt")
